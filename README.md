@@ -1,5 +1,7 @@
 # meta Tag Analyzer for Chrome Extension
 
+[![Build Status](https://travis-ci.org/herablog/meta-tag-analyzer.svg?branch=master)](https://travis-ci.org/herablog/meta-tag-analyzer)
+
 [This is a Chrome Extension](https://chrome.google.com/webstore/detail/fjaojohahonilkanpijpfhkekbegbkfa/) to analyze the quality of your site's meta information.
 
 ![Preview](https://raw.githubusercontent.com/herablog/meta-tag-analyzer/master/screenshots/preview.png)
