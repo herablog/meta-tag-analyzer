@@ -1,5 +1,8 @@
 # meta Tag Analyzer for Chrome Extension
-This is a Chrome Extension to analyze the quality of your site's meta information.
+
+[This is a Chrome Extension](https://chrome.google.com/webstore/detail/fjaojohahonilkanpijpfhkekbegbkfa/) to analyze the quality of your site's meta information.
+
+![Preview](https://raw.githubusercontent.com/herablog/meta-tag-analyzer/master/screenshots/preview.png)
 
 ## \<meta\> is hot right now
 Meta element is known as the web site's information for browsers, search engines, or other web services. Basically, we can use the element to show specific page description, keywords, and other metadata.
@@ -67,7 +70,7 @@ You can learn your site's meta condition easily by using this extension.
 
 
 ## Installation
-You can install this extension from the Chrome Web Store.
+You can install this extension from [the Chrome Web Store](https://chrome.google.com/webstore/detail/fjaojohahonilkanpijpfhkekbegbkfa/).
 
 ## Start Analyzing
 After installing, this extension will start analyzing. When you finished loading a website, the site's score is shown over the icon.
@@ -76,13 +79,24 @@ If you'd like to learn more information about the score, click the icon. You can
 ## Popup
 When you click the icon, a popup is displayed.
 
+![Popup](https://raw.githubusercontent.com/herablog/meta-tag-analyzer/master/screenshots/popup.png)
+
 ### Score
+
+![Score](https://raw.githubusercontent.com/herablog/meta-tag-analyzer/master/screenshots/popup_score.png)
+
 The popup shows the score of your site between 0 to 100. It's **NOT** important to get a perfect score. You should check which meta passed or not, and any differences from other sites.
 
 ### Bar Graph
+
+![Bar Graph](https://raw.githubusercontent.com/herablog/meta-tag-analyzer/master/screenshots/popup-bar.png)
+
 The bar indicates the percentage of passed elements in each category. The percentage includes only required elements. By putting your mouse over the bar, the percentage value is shown. Clicking the bar causes detailed information to be shown on the table.
 
 ### Table
+
+![Table](https://raw.githubusercontent.com/herablog/meta-tag-analyzer/master/screenshots/popup-table.png)
+
 The table shows elements' name, description, whether they're required, and result. There are two types of value in the result: Passed or Failed. If you find any failed elements, maybe you should consider adding the element into your HTML.
 
 ## Parameters
