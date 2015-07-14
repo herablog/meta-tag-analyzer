@@ -1,0 +1,51 @@
+{
+  "name": "meta-tag-analyzer-extension",
+  "version": "0.0.1",
+  "description": "A Chrome Extension to analyzie html meta tags; Open Graph, App Links, Twitter Cards, App Indexing, SEO.",
+  "main": "manifest.json",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herablog/meta-tag-analyzer"
+  },
+  "bugs": {
+    "url": "https://github.com/herablog/meta-tag-analyzer/issues"
+  },
+  "keywords": [
+    "Open Graph",
+    "App Links",
+    "Twitter Cards",
+    "App Indexing",
+    "SEO"
+  ],
+  "author": "Hara Kazunari <kz.route21@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "babel-istanbul": "^0.2.10",
+    "babel-plugin-espower": "^1.0.0",
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.6",
+    "chai": "^3.0.0",
+    "cheerio": "^0.19.0",
+    "coveralls": "^2.11.2",
+    "eslint": "^0.24.0",
+    "istanbul": "^0.3.17",
+    "karma": "^0.12.37",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.4.2",
+    "karma-mocha": "^0.2.0",
+    "karma-mocha-reporter": "^1.0.2",
+    "karma-sinon-chrome": "0.0.3",
+    "lodash": "^3.10.0",
+    "mocha": "^2.2.5",
+    "power-assert": "^0.11.0",
+    "riot": "^2.2.2-beta"
+  }
+}
