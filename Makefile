@@ -21,6 +21,10 @@ mocha:
 karma:
 	$(KARMA) start
 
+# Tests for TravisCI
+travistest: eslint mocha cov
+	$(KARMA) start --single-run
+
 # build
 build: browserify riot
 
