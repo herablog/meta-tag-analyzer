@@ -18,21 +18,21 @@ export let twitterCardsWeb = {
 			'required': true
 		},
 		{
-			'selector': 'meta[name="twitter:title"]',
+			'selector': 'meta[name="twitter:title"], meta[property="og:title"]',
 			'name': 'twitter:title',
 			'description': 'The title of your content.',
 			'description_ja': 'ページのタイトルです。',
 			'required': true
 		},
 		{
-			'selector': 'meta[name="twitter:description"]',
+			'selector': 'meta[name="twitter:description"], meta[property="og:description"]',
 			'name': 'twitter:description',
 			'description': 'About 200 characters description of your content.',
 			'description_ja': '200文字程度で書かれたページの説明文です。',
 			'required': false
 		},
 		{
-			'selector': 'meta[name^="twitter:image"]',
+			'selector': 'meta[name^="twitter:image"], meta[property="og:image"]',
 			'name': 'twitter:image',
 			'description': 'An image URL which should represent your content.',
 			'description_ja': 'コンテンツの内容を表現する画像のURLを指定します。',
